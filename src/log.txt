@@ -1,0 +1,11 @@
+2024-03-08T04:55:20.081Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T04:55:20.125Z - GET /favicon.ico - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T04:57:37.173Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T04:58:56.589Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T04:58:56.612Z - GET /favicon.ico - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T04:58:57.023Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T05:00:24.046Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T05:00:24.470Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T05:01:03.726Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T05:02:10.949Z - GET / - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms
+2024-03-08T05:02:10.992Z - GET /favicon.ico - Payload: {} - Response: La ruta especifica no existe - ResponseTime: 0ms

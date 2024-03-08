@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-semi/no-semi": "error"
+
+  },
+  "settings": {
+    "eslint.rulePaths": ["eslint-rules"]
+
+  }
+}
