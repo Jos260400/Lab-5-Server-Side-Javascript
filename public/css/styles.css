@@ -26,3 +26,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.news-item, .match-item, .highlight-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.news-item h3, .match-item h3, .highlight-item h3 {
+    color: #007bff;
+}
+
