@@ -1,14 +1,17 @@
-
+# Use the official MySQL image as the base image
 FROM mysql:latest
 
-ENV MYSQL_ROOT_PASSWORD my-secret-pw
+# Set environment variables for MySQL
+ENV MYSQL_DATABASE=blog_db
+ENV MYSQL_ROOT_PASSWORD=root_password
+# Optionally, define the default user and password (if needed)
+# ENV MYSQL_USER=blog_user
+# ENV MYSQL_PASSWORD=blog_password
 
-ENV MYSQL_DATABASE blog
+# Add your schema SQL script to the docker-entrypoint-initdb.d directory
+COPY schema.sql /docker-entrypoint-initdb.d/
 
-ENV MYSQL_USER bloguser
+# When the container starts, MySQL will automatically execute
+# scripts in /docker-entrypoint-initdb.d/ to initialize the database
 
-ENV MYSQL_PASSWORD blogpassword
-
-ADD schema.sql /docker-entrypoint-initdb.d
-
-EXPOSE 3000
+EXPOSE 3306
